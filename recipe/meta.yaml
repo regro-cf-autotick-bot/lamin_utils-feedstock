@@ -1,5 +1,5 @@
 {% set name = "lamin_utils" %}
-{% set version = "0.13.2" %}
+{% set version = "0.13.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lamin_utils-{{ version }}.tar.gz
-  sha256: 514519267baaa0209ae5518dd6dfeeb98ecc0dd3e3ff138fbfae419252b2e751
+  sha256: b484722d9bfac6f0de12b628b63654a7b13045d9eecf334370aade1e19d8cb63
 
 build:
   noarch: python
